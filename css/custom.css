@@ -1,0 +1,212 @@
+/*
+navbar-default personalizada en:
+http://work.smarchal.com/twbscolor/
+
+*/
+
+
+
+.navbar-default {
+  background-color: rgba(59, 66, 83, 0.9);
+  border-color: #000000;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f3b3b3;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f3b3b3;
+  background-color: rgba(59, 66, 83, 0.9);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ecdbff;
+  background-color: rgba(59, 66, 83, 0.9);
+}
+.navbar-default .navbar-toggle {
+  border-color: rgba(59, 66, 83, 0.9);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(59, 66, 83, 0.9);
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ecdbff;
+}
+
+@media (max-width: 800px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: rgba(59, 66, 83, 0.9);
+  }
+}
+
+
+
+
+
+
+
+/* CATALAGO */
+
+
+.container-image{
+  position:relative;
+  padding-top:40px;
+  padding-bottom:40px;
+  width: 1200px;
+  height:auto;
+  margin:auto;
+  /* background:rgba(139, 133, 133, 0.205); */
+  justify-content: center;
+}
+
+.container-image .list-image{
+  
+  display: flex;
+  /* los elementos se mantienen en el container */
+  flex-wrap: wrap; 
+  
+}
+
+.container-image .list-image li{
+  margin-right: 10px;
+  margin-bottom: 50px;
+  list-style: none;
+
+}
+.container-image .list-image li .container--image{
+  
+  position: relative;
+  width: 216px;
+  height: 280px;
+  /* background:rgba(54, 9, 9, 0.205); */
+}
+
+.container-image .list-image li .container--image img{
+    margin-left: 48px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 120px;
+    
+    /* background:rgba(243, 49, 49, 0.205); */
+}
+
+
+.container-image .list-image li .container--image p{
+  text-align: center;
+  
+}
+
+
+
+
+/* Color de la barra de paginación */
+
+.pagination > li > a
+{
+    background-color: white;
+    color: rgba(59, 66, 83, 0.9);
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: rgba(59, 66, 83, 0.9) ;
+    border: solid 1px rgba(59, 66, 83, 0.9) ;
+}
+
+.pagination > .active > a:hover
+{
+    background-color:rgba(59, 66, 83, 0.9);
+    border: solid 1px rgba(59, 66, 83, 0.9);
+}
+
+.pagination a:link {
+  color: rgba(59, 66, 83, 0.9);
+  font-weight: bold;
+}
+
+.pagination span a{
+  font-weight: bold;
+  color: rgb(216, 63, 63);
+}
+
+.rojo {
+  margin: 0px;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 7px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #E5002F;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.38);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.38);
+  box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.38);
+  }
+  
+  .verde {
+  margin: 0px;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 7px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #39bd2f;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.38);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.38);
+  box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.38);
+  }
+
+
